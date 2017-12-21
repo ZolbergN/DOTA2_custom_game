@@ -1,0 +1,8 @@
+mount123
+{
+	material materials/overviews/mount123.vmat
+	pos_x -8192
+	pos_y 8192
+	scale 16.000
+}
+
