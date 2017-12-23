@@ -1,9 +1,9 @@
 "DOTAHeroes"
 {
-  "npc_dota_hero_ancient_apparition_barebones"
+  "npc_dota_hero_axe_barebones"
   {
-    "AbilityLayout"     "6"
-    "override_hero"     "npc_dota_hero_ancient_apparition"
+    "AbilityLayout"     "1"
+    "override_hero"     "npc_dota_hero_axe"
     "SoundSet"          "0" 
     "Ability1"        "example_ability" 
     "Ability2"        "barebones_empty2" 
@@ -22,20 +22,20 @@
     "Ability15"       ""
     "Ability16"       ""
 
-    "ArmorPhysical"       "0"                 // Physical protection.
-    "MagicalResistance"       "0"                 // Magical protection (percentage).
+    "ArmorPhysical"       "7"                 // Physical protection.
+    "MagicalResistance"       "5"                 // Magical protection (percentage).
 
-    "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
-    "AttackDamageMin"     "1"                   // Damage range min.
-    "AttackDamageMax"     "1"                   // Damage range max.
+
+    "AttackDamageMin"     "10"                   // Damage range min.
+    "AttackDamageMax"     "70"                   // Damage range max.
 
     //"AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
-    "AttributeBaseStrength"   "0"                   // Base strength
-    "AttributeStrengthGain"   "0"                   // Strength bonus per level.
-    "AttributeBaseIntelligence" "0"                   // Base intelligence
-    "AttributeIntelligenceGain" "0"                   // Intelligence bonus per level.
-    "AttributeBaseAgility"    "0"                   // Base agility
-    "AttributeAgilityGain"    "0"                   // Agility bonus per level.
+    "AttributeBaseStrength"   "13"                   // Base strength
+    "AttributeStrengthGain"   "5"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "4"                   // Base intelligence
+    "AttributeIntelligenceGain" "5"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "5"                   // Base agility
+    "AttributeAgilityGain"    "5"                   // Agility bonus per level.
 
     "BountyXP"          "0"                 // Experience earn.
     "BountyGoldMin"       "0"                   // Gold earned min.
@@ -49,7 +49,7 @@
     "MovementTurnRate"      "1.0"                 // Turning rate.
 
     "StatusHealth"        "1000"                 // Base health.
-    "StatusHealthRegen"     "0.0"                 // Health regeneration rate.
+    "StatusHealthRegen"     "5.0"                 // Health regeneration rate.
     "StatusMana"        "400"                   // Base mana.
     "StatusManaRegen"     "100.0"                 // Mana regeneration rate.
 

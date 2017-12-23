@@ -24,7 +24,7 @@
     //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_MENU_BUTTONS, false );     //Top-left menu buttons in the HUD.
     //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ENDGAME, false );      //Endgame scoreboard.    
     //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_BAR_BACKGROUND, false );     //Top-left menu buttons in the HUD.
-	
+
     // These lines set up the panorama colors used by each team (for game select/setup, etc)
     GameUI.CustomUIConfig().team_colors = {}
     GameUI.CustomUIConfig().team_colors[DOTATeam_t.DOTA_TEAM_GOODGUYS] = "#3dd296;";
@@ -48,6 +48,7 @@
     <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/barebones_worldpanels.xml" />
     <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/containers/container_base.xml" />
     <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/modmaker/modmaker.xml" />
+	<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/quest/quest.xml" />
     <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/selection.xml" />
 
     <!-- From Overthrow.
